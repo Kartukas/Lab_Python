@@ -4,7 +4,7 @@ users = ['user1', 'user2', 'user3', 'user1', 'user4', 'user2']
 Unic_users = {
     "Общее количество": 0,
     "Уникальные посещения": 0,
-    "Общее количество": len(users),
-    "Уникальные посещения": len(set(users)),
 }
+Unic_users["Общее количество"] = len(users)
+Unic_users["Уникальные посещения"] = len(set(users))
 print(Unic_users)
